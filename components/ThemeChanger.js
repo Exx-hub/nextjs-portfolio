@@ -1,7 +1,10 @@
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const ThemeChanger = () => {
+	const [mounted, setMounted] = useState(false);
 	const { theme, setTheme } = useTheme();
+
 	const handleTheme = () => {
 		if (theme === "light") {
 			setTheme("dark");
@@ -9,6 +12,12 @@ const ThemeChanger = () => {
 			setTheme("light");
 		}
 	};
+
+	// When mounted on client, now we can show the UI
+	useEffect(() => setMounted(true), []);
+
+	if (!mounted) return null;
+
 	return (
 		<div>
 			The current theme is: {theme}
