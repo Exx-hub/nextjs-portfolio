@@ -18,7 +18,7 @@ const SideBar = () => {
 			<Head>
 				<style>{dom.css()}</style>
 			</Head>
-			<div className="sidebar-container">
+			<div className="sidebarcontainer">
 				<div className="sidebar_top">
 					<Image
 						className={styles.img}
