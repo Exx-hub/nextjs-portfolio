@@ -1,0 +1,18 @@
+.img {
+	border-radius: 100%;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: space-evenly;
+	/* background-color: blue; */
+}
+
+.icon {
+	color: red;
+	font-size: 32px;
+}
+
+.contactSection {
+	background-color: lightgray;
+}
