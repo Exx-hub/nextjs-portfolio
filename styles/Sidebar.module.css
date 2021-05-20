@@ -1,18 +1,79 @@
 .img {
-	border-radius: 100%;
+	border-radius: 9999px;
+	margin: 0 auto;
+}
+
+.name {
+	/* color: red; */
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+.firstName {
+	color: rgb(175, 40, 40);
+}
+.title {
+	border-radius: 9999px;
+	padding: 0.25rem 0.5rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	background-color: rgb(136, 135, 135);
+	/* #333 dark  */
 }
 
 .socialIcons {
 	display: flex;
 	justify-content: space-evenly;
-	/* background-color: blue; */
+	/* padding: 0.25rem 0.5rem; */
+
+	margin: 1.25rem auto;
+	width: 85%;
 }
 
 .icon {
-	color: red;
+	color: rgb(175, 40, 40);
 	font-size: 32px;
+	cursor: pointer;
+}
+.contactSection {
+	background-color: rgb(136, 135, 135);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	margin-left: -1rem;
+	margin-right: -1rem;
 }
 
-.contactSection {
-	background-color: lightgray;
+.resume,
+.contact {
+	border-radius: 9999px;
+	padding: 0.25rem 0.5rem;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
+	background-image: linear-gradient(
+		to right,
+		#9b221e 0%,
+		#9b221e 40%,
+		#f51109 100%
+	);
 }
+
+.resume:hover,
+.contact:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+/* silverish */
+/* background: rgb(45, 45, 45);
+	background: linear-gradient(
+		9deg,
+		rgba(45, 45, 45, 1) 0%,
+		rgba(119, 34, 34, 0) 100%
+	); */

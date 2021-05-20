@@ -18,21 +18,19 @@ const SideBar = () => {
 			<Head>
 				<style>{dom.css()}</style>
 			</Head>
-			<div className="sidebarcontainer">
-				<div className="sidebar_top">
-					<Image
-						className={styles.img}
-						src={"/images/me4.jpg"}
-						width={95}
-						height={90}
-					/>
-					<h3>
-						<span>Alvin</span> Acosta
-					</h3>
-					<p>Full Stack Web Developer</p>
-					{/* download resume */}
-					<p>Download Resume</p>
-				</div>
+			<div className="sidebar">
+				<Image
+					className={styles.img}
+					src={"/images/me4.jpg"}
+					width={110}
+					height={105}
+					quality="100"
+				/>
+				<h3 className={styles.name}>
+					<span className={styles.firstName}>Alvin</span> Acosta
+				</h3>
+				<p className={styles.title}>Full Stack Web Developer</p>
+
 				<div className={styles.socialIcons}>
 					<FontAwesomeIcon className={styles.icon} icon={faGithub} />
 					<FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
@@ -44,7 +42,8 @@ const SideBar = () => {
 					<p>0916-420-9977</p>
 				</div>
 				<div className="sidebar-buttons">
-					<p>Get in touch!</p>
+					<p className={styles.contact}>Get in touch!</p>
+					<p className={styles.resume}>Download Resume</p>
 					<p>Switch Mode</p>
 				</div>
 			</div>
