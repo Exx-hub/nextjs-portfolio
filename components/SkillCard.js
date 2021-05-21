@@ -1,10 +1,11 @@
 const SkillCard = ({ item }) => {
+	const { Icon, title, description } = item;
 	console.log(item);
-
 	return (
 		<div>
-			<h3>{item.title}</h3>
-			<p>{item.description}</p>
+			<Icon />
+			<h3>{title}</h3>
+			<p>{description}</p>
 		</div>
 	);
 };

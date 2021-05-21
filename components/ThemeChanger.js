@@ -1,8 +1,8 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-import { faLightbulb, faMoon } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaLightbulb } from "react-icons/fa";
+import { BsBrightnessAltLow, BsMoon, IconName } from "react-icons/bs";
 
 const ThemeChanger = () => {
 	const [mounted, setMounted] = useState(false);
@@ -23,21 +23,13 @@ const ThemeChanger = () => {
 
 	return (
 		<div className="themeButton">
-			{theme === "dark" ? (
-				<FontAwesomeIcon
-					onClick={handleTheme}
-					className="themeIcon"
-					icon={faLightbulb}
-				/>
-			) : (
-				<FontAwesomeIcon
-					onClick={handleTheme}
-					className="themeIcon"
-					icon={faMoon}
-				/>
-			)}
+			<FaLightbulb onClick={handleTheme} className="themeIcon" />
 		</div>
 	);
 };
 
 export default ThemeChanger;
+
+// BsBrightnessLow
+// BsMoon
+// FaLightbulb
