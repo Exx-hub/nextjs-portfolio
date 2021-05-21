@@ -22,13 +22,14 @@
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	letter-spacing: 0.025em;
+	padding-left: 7px;
 }
 
 .cardGrid {
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
 	display: grid;
-	gap: 1.5rem;
+	gap: 1rem;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	/* sm:grid-cols-12 */
 }
@@ -38,5 +39,13 @@
 	/* grid-column: span 12 / span 12; sm*/
 	/* md:col-span-1 */
 	padding: 0.5rem;
+
+	/* contemplating  */
+	/* background-color: whitesmoke;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
-/*   rounded-lg dark:bg-dark-200 " */
+
+/* [data-theme="dark"] .card {
+	background-color: #333;
+} */

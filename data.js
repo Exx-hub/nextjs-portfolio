@@ -9,7 +9,7 @@ export const skills = [
 		Icon: RiComputerLine,
 		title: "Frontend Development",
 		description:
-			"Createscalable websites and using HTML, CSS and ReactJs and NextJs.",
+			"Create scalable websites and using HTML, CSS and ReactJs and NextJs.",
 	},
 	{
 		Icon: FaServer,
