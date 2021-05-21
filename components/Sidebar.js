@@ -11,6 +11,7 @@ import {
 	faGitlab,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ThemeChanger from "./ThemeChanger";
 
 const SideBar = () => {
 	return (
@@ -44,7 +45,7 @@ const SideBar = () => {
 				<div className="sidebar-buttons">
 					<p className={styles.contact}>Get in touch!</p>
 					<p className={styles.resume}>Download Resume</p>
-					<p>Switch Mode</p>
+					<ThemeChanger />
 				</div>
 			</div>
 		</>

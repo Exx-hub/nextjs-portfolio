@@ -27,8 +27,6 @@
 .socialIcons {
 	display: flex;
 	justify-content: space-evenly;
-	/* padding: 0.25rem 0.5rem; */
-
 	margin: 1.25rem auto;
 	width: 85%;
 }

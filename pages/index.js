@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import ThemeChanger from "../components/ThemeChanger";
 
 export default function Home() {
 	return (
@@ -15,7 +14,6 @@ export default function Home() {
 				<h1>
 					Hello my <a href="https://nextjs.org">JagiBunny!</a>
 				</h1>
-				<ThemeChanger />
 			</main>
 		</div>
 	);
