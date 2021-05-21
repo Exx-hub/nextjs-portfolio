@@ -1,0 +1,14 @@
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 15px;
+}
+
+.navbar h2 {
+	margin-right: auto;
+	border-bottom: 5px solid rgb(175, 40, 40);
+}
+
+.navbar a {
+	margin-left: 12px;
+}

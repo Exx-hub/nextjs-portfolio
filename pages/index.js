@@ -11,9 +11,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<h1>
-					Hello my <a href="https://nextjs.org">JagiBunny!</a>
-				</h1>
+				<h1>home</h1>
 			</main>
 		</div>
 	);
