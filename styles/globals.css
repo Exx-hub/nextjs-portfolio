@@ -63,6 +63,8 @@ a {
 	border-radius: 1rem;
 
 	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+	position: relative;
 }
 .main-container {
 	/* flex-grow: 3; */
@@ -81,11 +83,18 @@ a {
 	background-color: gray;
 	margin: 0 auto;
 	border-radius: 5px;
-	padding: 3px 10px;
+	padding: 0 10px;
 	width: min-content;
+	padding-top: 5px;
+	/* position: absolute; */
+	top: 0;
 }
 
 .themeIcon {
-	font-size: 20px;
+	font-size: 22px;
 	cursor: pointer;
+}
+
+[data-theme="light"] .themeIcon {
+	color: #f7b217;
 }
