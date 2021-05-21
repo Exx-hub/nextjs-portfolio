@@ -9,7 +9,7 @@ export const skills = [
 		Icon: RiComputerLine,
 		title: "Frontend Development",
 		description:
-			"Create beautiful and scalable websites and web apps using HTML, CSS and Javascript frameworks like ReactJs and NextJs.",
+			"Createscalable websites and using HTML, CSS and ReactJs and NextJs.",
 	},
 	{
 		Icon: FaServer,
@@ -26,18 +26,18 @@ export const skills = [
 		Icon: AiOutlineAntDesign,
 		title: "Responsive Web Design",
 		description:
-			"Create clean and fully responsive website designs with CSS and other frameworks like Bootstrap and Material-UI.",
+			"Create clean, fully responsive website designs CSS and frameworks.",
 	},
 	{
 		Icon: MdDeveloperMode,
 		title: "Competetive Coder",
 		description:
-			"Solve problems on a daily basis on Hackerrank, Codewars and Freecodecamp.",
+			"Solve problems daily on Hackerrank, Codewars and Freecodecamp.",
 	},
 	{
 		Icon: BsBook,
 		title: "Continuous Learning",
 		description:
-			"Seeks to enhance skills and knowledge through continuous learning on different platforms like Udemy, YouTube and Freecodecamp.",
+			"Seeks continuous learning on platforms like Udemy, YouTube, Freecodecamp.",
 	},
 ];

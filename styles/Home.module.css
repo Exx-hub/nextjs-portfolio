@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 0.25rem;
+}
+
+/* <h6 className="my-3 text-base font-medium"> */
+
+.cardsContainer {
+	flex-grow: 1;
+	padding: 1rem;
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
+}
+.cardsContainer > h3 {
+	font-weight: 600;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	letter-spacing: 0.025em;
+}
+
+.cardGrid {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	display: grid;
+	gap: 1.5rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	/* sm:grid-cols-12 */
+}
+
+.card {
+	grid-column: span 1 / span 1;
+	/* grid-column: span 12 / span 12; sm*/
+	/* md:col-span-1 */
+	padding: 0.5rem;
+}
+/*   rounded-lg dark:bg-dark-200 " */

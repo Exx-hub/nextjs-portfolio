@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import SkillCard from "../components/Skillcard";
 import { skills } from "../data";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
@@ -12,14 +13,21 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className="outer-container-below-navbar">
-				<h4>heading text</h4>
+			<main className={styles.container}>
+				<h5>
+					Animation typing for frontend dev,backend dev, web design / traits
+					Animation typing for frontend dev,backend dev, web design / traits
+					Animation typing for frontend dev,backend dev, web design / traits
+					Animation typing for frontend dev,backend dev, web design / traits
+					Animation typing for frontend dev,backend dev, web design / traits
+					Animation typing for frontend dev,backend dev, web design / traits
+				</h5>
 
-				<div className="skill-cards-container">
+				<div className={styles.cardsContainer}>
 					<h3>What I do:</h3>
-					<div className="skill-cards-grid">
+					<div className={styles.cardGrid}>
 						{skills.map((item) => (
-							<div className="each-skill-card-div" key={item.title}>
+							<div className={styles.card} key={item.title}>
 								<SkillCard item={item} />
 							</div>
 						))}
