@@ -6,3 +6,19 @@
 
 	height: 60vh;
 }
+
+/* grid grid-cols-12   */
+.projectGrid {
+	position: relative;
+	display: grid;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.projectCard {
+	/* col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200 */
+	/* grid-column: span 1 / span 1; */
+}

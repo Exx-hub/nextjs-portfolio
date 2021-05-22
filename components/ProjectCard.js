@@ -4,7 +4,7 @@ const ProjectCard = () => {
 	return (
 		<div>
 			{/* image  */}
-			<img src="https://picsum.photos/500/300?random=1" />
+			<img src="" alt="random" />
 			{/* title  */}
 			<h4>PROJECT TITLE</h4>
 			{/* description */}

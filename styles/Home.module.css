@@ -31,16 +31,13 @@
 	display: grid;
 	align-items: center;
 	gap: 1rem;
-	/* grid-template-columns: repeat(3, minmax(0, 1fr)); */
+
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-	/* sm:grid-cols-12 */
 }
 
 .card {
-	grid-column: span 1 / span 1;
-	/* grid-column: span 12 / span 12; sm*/
-	/* md:col-span-1 */
 	padding: 0.5rem;
+	/* grid-column: span 1 / span 1; */
 
 	/* contemplating  */
 	/* background-color: whitesmoke;
