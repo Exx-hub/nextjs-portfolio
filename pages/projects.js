@@ -1,9 +1,10 @@
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data";
+import styles from "../styles/Projects.module.css";
 
 const Projects = () => {
 	return (
-		<div className="projects-container">
+		<div className={styles.projectContainer}>
 			<h1>Projects</h1>
 
 			<div className="project-cards-grid">

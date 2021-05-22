@@ -1,7 +1,22 @@
+import Image from "next/image";
+
 const ProjectCard = () => {
 	return (
 		<div>
-			<h1>PROJECT CARD AKO</h1>
+			{/* image  */}
+			<img src="https://picsum.photos/500/300?random=1" />
+			{/* title  */}
+			<h4>PROJECT TITLE</h4>
+			{/* description */}
+			<p>project description</p>
+			<div>
+				{/* EXPAND?  */}
+
+				{/* or  */}
+
+				{/* live button  */}
+				{/* src code  */}
+			</div>
 		</div>
 	);
 };
