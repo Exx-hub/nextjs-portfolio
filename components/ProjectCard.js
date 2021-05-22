@@ -4,7 +4,15 @@ const ProjectCard = () => {
 	return (
 		<div>
 			{/* image  */}
-			<img src="" alt="random" />
+
+			<Image
+				src={"/projectImages/cmdd.png"}
+				alt="random"
+				layout="responsive"
+				height="180"
+				width="300"
+			/>
+
 			{/* title  */}
 			<h4>PROJECT TITLE</h4>
 			{/* description */}
