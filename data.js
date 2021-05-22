@@ -9,18 +9,19 @@ export const skills = [
 		Icon: RiComputerLine,
 		title: "Frontend Development",
 		description:
-			"Create scalable websites and using HTML, CSS and ReactJs and NextJs.",
+			"Create scalable websites using HTML, CSS and ReactJs and NextJs.",
 	},
 	{
 		Icon: FaServer,
 		title: "Backend Development",
 		description:
-			"Handle database, server and APIs using ExpressJs & other popular frameworks.",
+			"Handle database, server and APIs with ExpressJs & other frameworks.",
 	},
 	{
 		Icon: AiOutlineApi,
 		title: "APIs and Microservices",
-		description: "Develop robust REST API's and microservices with NodeJs.",
+		description:
+			"Develop clean and robust REST API's and microservices with NodeJs.",
 	},
 	{
 		Icon: AiOutlineAntDesign,
@@ -38,6 +39,21 @@ export const skills = [
 		Icon: BsBook,
 		title: "Continuous Learning",
 		description:
-			"Seeks continuous learning on platforms like Udemy, YouTube, Freecodecamp.",
+			"Daily progress on platforms like Udemy, YouTube, Freecodecamp.",
+	},
+];
+
+export const projects = [
+	{
+		image: "",
+		title: "SRF MNL",
+	},
+	{
+		image: "",
+		title: "CMD Pioneer",
+	},
+	{
+		image: "",
+		title: "Asset Mgt System",
 	},
 ];
