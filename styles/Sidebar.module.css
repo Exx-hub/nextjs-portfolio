@@ -20,8 +20,17 @@
 	padding: 0.25rem 0.5rem;
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
-	background-color: rgb(136, 135, 135);
+	background-color: rgb(201, 201, 201);
 	/* #333 dark  */
+}
+
+[data-theme="dark"] .title {
+	background: rgb(45, 45, 45);
+	background: linear-gradient(
+		9deg,
+		rgba(45, 45, 45, 1) 0%,
+		rgba(119, 34, 34, 0) 100%
+	);
 }
 
 .socialIcons {
@@ -37,13 +46,23 @@
 	cursor: pointer;
 }
 .contactSection {
-	background-color: rgb(136, 135, 135);
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
 	margin-left: -1rem;
 	margin-right: -1rem;
+
+	background-color: rgb(201, 201, 201);
+}
+
+[data-theme="dark"] .contactSection {
+	background: rgb(45, 45, 45);
+	background: linear-gradient(
+		9deg,
+		rgba(45, 45, 45, 1) 0%,
+		rgba(119, 34, 34, 0) 100%
+	);
 }
 
 .resume,
@@ -53,25 +72,27 @@
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 	cursor: pointer;
-	background-image: linear-gradient(
+	/* background-image: linear-gradient(
 		to right,
 		#9b221e 0%,
 		#9b221e 40%,
 		#f51109 100%
-	);
-}
-
-.resume:hover,
-.contact:hover {
-	background-position: right center; /* change the direction of the change here */
-	color: #fff;
-	text-decoration: none;
-}
-
-/* silverish */
-/* background: rgb(45, 45, 45);
+	); */
+	background-color: rgb(175, 40, 40);
+	/* background: rgb(45, 45, 45);
 	background: linear-gradient(
 		9deg,
 		rgba(45, 45, 45, 1) 0%,
 		rgba(119, 34, 34, 0) 100%
 	); */
+}
+
+.resume:hover,
+.contact:hover {
+	color: #fff;
+}
+
+[data-theme="dark"] .resume:hover,
+[data-theme="dark"] .contact:hover {
+	color: black;
+}

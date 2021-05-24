@@ -80,19 +80,31 @@ a {
 
 .themeButton {
 	cursor: pointer;
-	background-color: gray;
+
 	margin: 0 auto;
 	border-radius: 5px;
 	padding: 0 10px;
 	width: min-content;
-	padding-top: 5px;
+	padding-top: 6px;
+	margin-top: 10px;
 	/* position: absolute; */
 	top: 0;
+
+	background-color: rgb(201, 201, 201);
+}
+[data-theme="dark"] .themeButton {
+	background: rgb(45, 45, 45);
+	background: linear-gradient(
+		9deg,
+		rgba(45, 45, 45, 1) 0%,
+		rgba(119, 34, 34, 0) 100%
+	);
 }
 
 .themeIcon {
-	font-size: 22px;
+	font-size: 23px;
 	cursor: pointer;
+	filter: drop-shadow(1px 1px 1px black);
 }
 
 [data-theme="light"] .themeIcon {
@@ -107,5 +119,3 @@ a {
 *::-webkit-scrollbar-thumb {
 	background-color: gray;
 }
-
-/* try silver  */
