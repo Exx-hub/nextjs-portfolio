@@ -7,6 +7,9 @@
 	text-align: center;
 	margin: 15px;
 }
+.projectContainer span {
+	color: rgb(175, 40, 40);
+}
 
 .projectGrid {
 	position: relative;

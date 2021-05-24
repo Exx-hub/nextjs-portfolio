@@ -28,7 +28,7 @@ const SideBar = () => {
 					quality="100"
 				/>
 				<h3 className={styles.name}>
-					<span className={styles.firstName}>Alvin</span> Acosta
+					Alvin <span className={styles.firstName}>Acosta</span>
 				</h3>
 				<p className={styles.title}>Full Stack Web Developer</p>
 

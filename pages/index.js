@@ -24,7 +24,9 @@ export default function Home() {
 				</h5>
 
 				<div className={styles.cardsContainer}>
-					<h3>What I do:</h3>
+					<h3>
+						What I <span>Do</span>
+					</h3>
 					<div className={styles.cardGrid}>
 						{skills.map((item) => (
 							<div className={styles.card} key={item.title}>

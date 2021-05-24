@@ -22,7 +22,11 @@
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	letter-spacing: 0.025em;
-	padding-left: 7px;
+	/* padding-left: 10px; */
+	margin-left: 55px;
+}
+.cardsContainer span {
+	color: rgb(175, 40, 40);
 }
 
 .cardGrid {
