@@ -98,3 +98,14 @@ a {
 [data-theme="light"] .themeIcon {
 	color: #f7b217;
 }
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: gray;
+}
+
+/* try silver  */

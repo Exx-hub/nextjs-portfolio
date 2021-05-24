@@ -5,7 +5,7 @@ import styles from "../styles/Projects.module.css";
 const Projects = () => {
 	return (
 		<div className={styles.projectContainer}>
-			<h1>Projects</h1>
+			<h2>RECENT PROJECTS</h2>
 
 			<div className={styles.projectGrid}>
 				{projects.map((project) => (

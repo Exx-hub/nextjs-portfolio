@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<nav className={styles.navbar}>
-			<h2>{active}</h2>
+			{active && <h2>{active}</h2>}
 			<Link href="/">
 				<a>ABOUT</a>
 			</Link>
