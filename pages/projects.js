@@ -9,8 +9,8 @@ const Projects = () => {
 
 			<div className={styles.projectGrid}>
 				{projects.map((project) => (
-					<div key={project.title} className={styles.projectCard}>
-						<ProjectCard />
+					<div key={project.title} className={styles.projectCardDiv}>
+						<ProjectCard image={project.image} title={project.title} />
 					</div>
 				))}
 			</div>

@@ -45,15 +45,39 @@ export const skills = [
 
 export const projects = [
 	{
-		image: "",
-		title: "SRF MNL",
+		image: "/projectImages/cmd.png",
+		title: "CMD Pioneer Construction Corp.",
 	},
 	{
-		image: "",
-		title: "CMD Pioneer",
+		image: "/projectImages/srf.png",
+		title: "SRF MNL Surf School",
 	},
 	{
-		image: "",
-		title: "Asset Mgt System",
+		image: "/projectImages/invictus.png",
+		title: "Invictus Food Products Corp.",
+	},
+	{
+		image: "/projectImages/srf.png",
+		title: "SRF MNL  School",
+	},
+	{
+		image: "/projectImages/invictus.png",
+		title: "Invictus Food  Corp.",
+	},
+	{
+		image: "/projectImages/cmd.png",
+		title: "CMD Pioneer Corp.",
+	},
+	{
+		image: "/projectImages/cmd.png",
+		title: "CMD Pioneer Construction",
+	},
+	{
+		image: "/projectImages/srf.png",
+		title: "SRF MNL Surf",
+	},
+	{
+		image: "/projectImages/invictus.png",
+		title: "Invictus Food Products",
 	},
 ];

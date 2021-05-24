@@ -1,30 +1,44 @@
 import Image from "next/image";
+import { useState } from "react";
+import styles from "../styles/ProjectCard.module.css";
 
-const ProjectCard = () => {
+const ProjectCard = ({ image, title }) => {
+	const [enlarge, setEnlarge] = useState(false);
 	return (
-		<div>
+		<div className={styles.projectCard}>
 			{/* image  */}
 
 			<Image
-				src={"/projectImages/cmdd.png"}
+				src={image}
 				alt="random"
 				layout="responsive"
 				height="180"
 				width="300"
+				onClick={() => setEnlarge("true")}
 			/>
 
 			{/* title  */}
-			<h4>PROJECT TITLE</h4>
+			<h4>{title}</h4>
 			{/* description */}
-			<p>project description</p>
-			<div>
-				{/* EXPAND?  */}
+			{/* <p>project description</p> */}
 
-				{/* or  */}
+			{enlarge && (
+				<div
+					className="click project to enlarge"
+					style={{ position: "absolute", top: "0", right: "0" }}
+				>
+					<h1>ENLARGED VIEW OF PROJECT CARD</h1>
 
-				{/* live button  */}
-				{/* src code  */}
-			</div>
+					{/* image  */}
+					{/* title  */}
+					{/* description  */}
+					{/* view  */}
+					{/* src code  */}
+					{/* tech tags 	 */}
+					{/* x button to close  */}
+					{/* onClick={() => setEnlarge(false)} */}
+				</div>
+			)}
 		</div>
 	);
 };
