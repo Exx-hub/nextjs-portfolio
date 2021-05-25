@@ -1,5 +1,5 @@
 .devContainer {
-	padding: 0.5rem 1.5rem;
+	padding: 0rem 1.5rem;
 }
 
 /* className="grid gap-6 md:grid-cols-2" */
@@ -9,3 +9,59 @@
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 1.5rem;
 }
+
+.devContainer h4 {
+	margin: 0.75rem 0.5rem;
+	font-size: 1.35rem;
+	line-height: 1.8rem;
+	font-weight: 700;
+}
+
+.devTop h5 {
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1rem;
+	margin: 0.5rem;
+}
+
+.devTop p {
+	margin: 0.5rem;
+}
+
+.experienceBottom {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.ctaDiv {
+	grid-column: span 5 / span 5;
+}
+.listDiv {
+	grid-column: span 7 / span 7;
+}
+.listDiv h6 {
+	font-size: 1rem;
+	margin: 7px;
+}
+
+.experience p {
+	background-color: rgb(175, 40, 40);
+	width: 140px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	cursor: pointer;
+
+	border-radius: 20px;
+}
+
+.cta {
+	margin-right: 5px;
+	font-size: small;
+	color: lightgray;
+}
+
+/* adjust media queries not autofit  */
+/* of experience and affiliations */
