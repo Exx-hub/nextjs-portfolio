@@ -30,7 +30,7 @@ const SideBar = () => {
 				<h3 className={styles.name}>
 					Alvin <span className={styles.firstName}>Acosta</span>
 				</h3>
-				<p className={styles.title}>Full Stack Web Developer</p>
+				<p className={styles.title}>Web Developer</p>
 
 				<div className={styles.socialIcons}>
 					<FontAwesomeIcon className={styles.icon} icon={faGithub} />

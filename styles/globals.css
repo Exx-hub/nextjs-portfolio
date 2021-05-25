@@ -38,8 +38,8 @@ a {
 .outer-container {
 	/* max-width: 960px; */
 	/* margin: 0 auto; */
-	padding-left: 9rem;
-	padding-right: 9rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
 	display: grid;
 	grid-template-columns: repeat(12, minmax(0, 1fr));
 	gap: 1.5rem;
