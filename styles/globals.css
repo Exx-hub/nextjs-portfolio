@@ -34,10 +34,7 @@ a {
 	margin: 0;
 }
 
-/* tried using flex at first not testing grid  */
 .outer-container {
-	/* max-width: 960px; */
-	/* margin: 0 auto; */
 	padding-left: 8rem;
 	padding-right: 8rem;
 	display: grid;
@@ -52,8 +49,6 @@ a {
 }
 
 .sidebar-container {
-	/* border: 1px solid blue; */
-
 	grid-column: span 3 / span 3;
 	height: 100%;
 	padding: 1rem;
@@ -67,8 +62,6 @@ a {
 	position: relative;
 }
 .main-container {
-	/* flex-grow: 3; */
-
 	grid-column: span 9 / span 9;
 
 	display: flex;
