@@ -2,7 +2,7 @@
 	padding: 0rem 1.5rem;
 }
 
-/* className="grid gap-6 md:grid-cols-2" */
+/* EDUC AND EXP  */
 
 .devTop {
 	display: grid;
@@ -41,7 +41,7 @@
 }
 .listDiv h6 {
 	font-size: 1rem;
-	margin: 7px;
+	margin: 8px;
 }
 
 .experience p {
@@ -62,6 +62,15 @@
 	font-size: small;
 	color: lightgray;
 }
+
+/* LANGUAGES PART  */
+.devBottom {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1.5rem;
+}
+
+/* MEDIA QUERIES  */
 
 /* adjust media queries not autofit  */
 /* of experience and affiliations */
