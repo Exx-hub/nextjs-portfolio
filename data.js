@@ -89,15 +89,15 @@ export const languages = [
 	},
 	{
 		title: "CSS",
-		image: "/langImages/html.png",
+		image: "/langImages/css.png",
 	},
 	{
 		title: "JavaScript",
-		image: "/langImages/next.png",
+		image: "/langImages/js.png",
 	},
 	{
 		title: "ReactJs",
-		image: "/langImages/html.png",
+		image: "/langImages/react.png",
 	},
 	{
 		title: "NextJs",
@@ -105,77 +105,75 @@ export const languages = [
 	},
 	{
 		title: "NodeJs",
-		image: "/langImages/html.png",
+		image: "/langImages/node.png",
 	},
 	{
 		title: "MongoDb",
-		image: "/langImages/next.png",
+		image: "/langImages/mongo.png",
 	},
-	// {
-	// 	title: "ExpressJs",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Redux",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Firebase",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Bootstrap",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Sass",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Material-Ui",
-	// 	image: "",
-	// },
+	{
+		title: "ExpressJs",
+		image: "/langImages/express.png",
+	},
+	{
+		title: "Redux",
+		image: "/langImages/redux.png",
+	},
+	{
+		title: "Bootstrap",
+		image: "/langImages/bootstrap.png",
+	},
+	{
+		title: "Sass",
+		image: "/langImages/sass.png",
+	},
+	{
+		title: "Material-Ui",
+		image: "/langImages/matui.png",
+	},
 ];
 
 export const tools = [
 	{
 		title: "Git",
-		image: "/langImages/cmd.png",
-	},
-	{
-		title: "Figma",
-		image: "/langImages/vscode.png",
-	},
-	{
-		title: "Canva",
-		image: "/langImages/cmd.png",
+		image: "/langImages/git.png",
 	},
 	{
 		title: "VsCode",
 		image: "/langImages/vscode.png",
 	},
-	// {
-	// 	title: "Dev Tools",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Git Bash",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "CMD",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Postman",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Github",
-	// 	image: "",
-	// },
-	// {
-	// 	title: "Gitlab",
-	// 	image: "",
-	// },
+	{
+		title: "Dev Tools",
+		image: "/langImages/devtools.png",
+	},
+	{
+		title: "Figma",
+		image: "/langImages/figma.png",
+	},
+	{
+		title: "Canva",
+		image: "/langImages/canva.png",
+	},
+
+	{
+		title: "Git Bash",
+		image: "/langImages/bash.png",
+	},
+	{
+		title: "CMD",
+		image: "/langImages/cmd.png",
+	},
+
+	{
+		title: "Postman",
+		image: "/langImages/post.png",
+	},
+	{
+		title: "Github",
+		image: "/langImages/hub.png",
+	},
+	{
+		title: "Gitlab",
+		image: "/langImages/lab.png",
+	},
 ];
