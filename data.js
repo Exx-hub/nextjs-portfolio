@@ -176,4 +176,12 @@ export const tools = [
 		title: "Gitlab",
 		image: "/langImages/lab.png",
 	},
+	{
+		title: "Heroku",
+		image: "/langImages/heroku.png",
+	},
+	{
+		title: "Netlify",
+		image: "/langImages/netlify.png",
+	},
 ];

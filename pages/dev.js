@@ -53,7 +53,7 @@ const dev = () => {
 			</div>
 			<div className={styles.devBottom}>
 				<div className="languages">
-					<h4>Languages and frameworks</h4>
+					<h4>Languages and Frameworks</h4>
 					<div className={styles.techGrid}>
 						{languages.map((lang) => (
 							<div className={styles.techDiv}>
@@ -64,7 +64,7 @@ const dev = () => {
 					</div>
 				</div>
 				<div className="tools and software">
-					<h4>Tools</h4>
+					<h4>Tools and Software</h4>
 					<div className={styles.techGrid}>
 						{tools.map((tool) => (
 							<div className={styles.techDiv}>
