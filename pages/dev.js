@@ -54,21 +54,25 @@ const dev = () => {
 			<div className={styles.devBottom}>
 				<div className="languages">
 					<h4>Languages and frameworks</h4>
-					{languages.map((lang) => (
-						<div className={styles.techDiv}>
-							<Image src={lang.image} width={30} height={30} />
-							<p>{lang.title}</p>
-						</div>
-					))}
+					<div className={styles.techGrid}>
+						{languages.map((lang) => (
+							<div className={styles.techDiv}>
+								<Image src={lang.image} width={30} height={30} />
+								<p>{lang.title}</p>
+							</div>
+						))}
+					</div>
 				</div>
 				<div className="tools and software">
 					<h4>Tools</h4>
-					{tools.map((tool) => (
-						<div className={styles.techDiv}>
-							<Image src={tool.image} width={30} height={30} />
-							<p>{tool.title}</p>
-						</div>
-					))}
+					<div className={styles.techGrid}>
+						{tools.map((tool) => (
+							<div className={styles.techDiv}>
+								<Image src={tool.image} width={30} height={30} />
+								<p>{tool.title}</p>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</div>

@@ -70,6 +70,12 @@
 	gap: 1.5rem;
 }
 
+.techGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 0.5rem;
+}
+
 .techDiv {
 	display: flex;
 	align-items: center;
