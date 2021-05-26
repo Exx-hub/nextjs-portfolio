@@ -81,3 +81,101 @@ export const projects = [
 		title: "Invictus Food Products",
 	},
 ];
+
+export const languages = [
+	{
+		title: "HTML",
+		image: "/langImages/html.png",
+	},
+	{
+		title: "CSS",
+		image: "/langImages/html.png",
+	},
+	{
+		title: "JavaScript",
+		image: "/langImages/next.png",
+	},
+	{
+		title: "ReactJs",
+		image: "/langImages/html.png",
+	},
+	{
+		title: "NextJs",
+		image: "/langImages/next.png",
+	},
+	{
+		title: "NodeJs",
+		image: "/langImages/html.png",
+	},
+	{
+		title: "MongoDb",
+		image: "/langImages/next.png",
+	},
+	// {
+	// 	title: "ExpressJs",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Redux",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Firebase",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Bootstrap",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Sass",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Material-Ui",
+	// 	image: "",
+	// },
+];
+
+export const tools = [
+	{
+		title: "Git",
+		image: "/langImages/cmd.png",
+	},
+	{
+		title: "Figma",
+		image: "/langImages/vscode.png",
+	},
+	{
+		title: "Canva",
+		image: "/langImages/cmd.png",
+	},
+	{
+		title: "VsCode",
+		image: "/langImages/vscode.png",
+	},
+	// {
+	// 	title: "Dev Tools",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Git Bash",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "CMD",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Postman",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Github",
+	// 	image: "",
+	// },
+	// {
+	// 	title: "Gitlab",
+	// 	image: "",
+	// },
+];

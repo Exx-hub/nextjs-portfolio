@@ -1,5 +1,8 @@
 import styles from "../styles/Dev.module.css";
 import { FaFileDownload, FaPaperPlane, FaLinkedinIn } from "react-icons/fa";
+import Image from "next/image";
+
+import { languages, tools } from "../data";
 
 const dev = () => {
 	return (
@@ -51,32 +54,21 @@ const dev = () => {
 			<div className={styles.devBottom}>
 				<div className="languages">
 					<h4>Languages and frameworks</h4>
-					<p>HTML</p>
-					<p>CSS</p>
-					<p>JavaScript</p>
-					<p>ReactJs</p>
-					<p>NextJs</p>
-					<p>NodeJs</p>
-					<p>ExpressJs</p>
-					<p>MongoDb</p>
-					<p>Redux</p>
-					<p>Firebase</p>
-					<p>Bootstarp</p>
-					<p>Material-UI</p>
-					<p>Sass</p>
+					{languages.map((lang) => (
+						<div className={styles.techDiv}>
+							<Image src={lang.image} width={30} height={30} />
+							<p>{lang.title}</p>
+						</div>
+					))}
 				</div>
 				<div className="tools and software">
 					<h4>Tools</h4>
-					<p>Git</p>
-					<p>Terminal</p>
-					<p>Dev Tools</p>
-					<p>Postman</p>
-					<p>VsCode</p>
-					<p>Sublime Text</p>
-					<p>Figma</p>
-					<p>Canva</p>
-					<p>Github</p>
-					<p>GitLab</p>
+					{tools.map((tool) => (
+						<div className={styles.techDiv}>
+							<Image src={tool.image} width={30} height={30} />
+							<p>{tool.title}</p>
+						</div>
+					))}
 				</div>
 			</div>
 		</div>

@@ -70,6 +70,10 @@
 	gap: 1.5rem;
 }
 
+.techDiv {
+	display: flex;
+	align-items: center;
+}
 /* MEDIA QUERIES  */
 
 /* adjust media queries not autofit  */
