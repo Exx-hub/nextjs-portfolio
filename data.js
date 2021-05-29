@@ -73,12 +73,12 @@ export const projects = [
 		title: "Redux-Cart E-Commerce",
 	},
 	{
-		image: "/projectImages/cmd.png",
-		title: "CMD Pioneer Construction",
+		image: "/projectImages/meme.png",
+		title: "React Meme Generator",
 	},
 	{
-		image: "/projectImages/srf.png",
-		title: "SRF MNL Surf",
+		image: "/projectImages/firebase-gram.png",
+		title: "Firebase-Gram",
 	},
 	{
 		image: "/projectImages/invictus.png",
