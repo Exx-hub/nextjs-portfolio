@@ -62,7 +62,7 @@ export const projects = [
 	},
 	{
 		image: "/projectImages/weather.png",
-		title: "Weather App",
+		title: "React Weather App",
 	},
 	{
 		image: "/projectImages/reduxcart.png",
@@ -81,8 +81,16 @@ export const projects = [
 		title: "Firebase-Gram",
 	},
 	{
-		image: "/projectImages/invictus.png",
-		title: "Invictus Food Products",
+		image: "/projectImages/news.png",
+		title: "News App NextJs",
+	},
+	{
+		image: "/projectImages/jagi.png",
+		title: "Daily Quote Generator",
+	},
+	{
+		image: "/projectImages/drum.png",
+		title: "React Drum Machine",
 	},
 ];
 
