@@ -57,16 +57,20 @@ export const projects = [
 		title: "Invictus Food Products Corp.",
 	},
 	{
-		image: "/projectImages/srf.png",
-		title: "SRF MNL  School",
+		image: "/projectImages/personal.png",
+		title: "Portfolio Website 1.0",
 	},
 	{
-		image: "/projectImages/invictus.png",
-		title: "Invictus Food  Corp.",
+		image: "/projectImages/weather.png",
+		title: "Weather App",
 	},
 	{
-		image: "/projectImages/cmd.png",
-		title: "CMD Pioneer Corp.",
+		image: "/projectImages/reduxcart.png",
+		title: "Asset Mgt System",
+	},
+	{
+		image: "/projectImages/reduxcart.png",
+		title: "Redux-Cart E-Commerce",
 	},
 	{
 		image: "/projectImages/cmd.png",
