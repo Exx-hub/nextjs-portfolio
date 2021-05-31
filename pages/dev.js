@@ -29,18 +29,29 @@ const dev = () => {
 					<h4>Experience / Affiliations</h4>
 					<div className={styles.experienceBottom}>
 						<div className={styles.ctaDiv}>
-							<p>
+							<a
+								href="https://www.linkedin.com/in/alvin-acosta/"
+								target="_blank"
+							>
 								<FaLinkedinIn className={styles.cta} />
 								LinkedIn
-							</p>
-							<p>
+							</a>
+							<a
+								href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:19094244/?edit=true"
+								target="_blank"
+								download
+							>
 								<FaFileDownload className={styles.cta} />
 								Resume
-							</p>
-							<p>
+							</a>
+							<a
+								onClick={() =>
+									window.open("mailto:alvinfloresacosta@gmail.com")
+								}
+							>
 								<FaPaperPlane className={styles.cta} />
 								Contact Me
-							</p>
+							</a>
 						</div>
 						<div className={styles.listDiv}>
 							<h6>• Cauld & Clark IT Solutions</h6>
