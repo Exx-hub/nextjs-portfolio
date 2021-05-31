@@ -75,7 +75,12 @@ const dev = () => {
 					</div>
 				</div>
 				<div className={styles.devBottom}>
-					<div className="languages">
+					<motion.div
+						initial={{ x: 0 }}
+						animate={{ x: 5 }}
+						transition={{ type: "spring", stiffness: 500 }}
+						className="languages"
+					>
 						<h4>Languages and Frameworks</h4>
 						<div className={styles.techGrid}>
 							{languages.map((lang) => (
@@ -85,8 +90,13 @@ const dev = () => {
 								</div>
 							))}
 						</div>
-					</div>
-					<div className="tools and software">
+					</motion.div>
+					<motion.div
+						initial={{ x: 0 }}
+						animate={{ x: 5 }}
+						transition={{ type: "spring", stiffness: 500 }}
+						className="tools and software"
+					>
 						<h4>Tools and Software</h4>
 						<div className={styles.techGrid}>
 							{tools.map((tool) => (
@@ -96,7 +106,7 @@ const dev = () => {
 								</div>
 							))}
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			</motion.div>
 		</>

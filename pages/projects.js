@@ -27,19 +27,14 @@ const Projects = () => {
 
 				<div className={styles.projectGrid}>
 					{projects.map((project) => (
-						<motion.div
-							animate={{ y: 5 }}
-							transition={{ type: "spring", stiffness: 500 }}
-							key={project.title}
-							className={styles.projectCardDiv}
-						>
+						<div key={project.title} className={styles.projectCardDiv}>
 							<ProjectCard
 								image={project.image}
 								title={project.title}
 								srcCode={project.srcCode}
 								live={project.live}
 							/>
-						</motion.div>
+						</div>
 					))}
 				</div>
 			</motion.div>

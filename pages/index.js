@@ -7,6 +7,62 @@ import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 
 export default function Home() {
+	const line1 = [
+		"H",
+		"e",
+		"l",
+		"l",
+		"o",
+		",",
+		" ",
+		"W",
+		"o",
+		"r",
+		"l",
+		"d",
+		"!",
+		" ",
+		"I",
+		" ",
+		"a",
+		"m",
+		" ",
+		"A",
+		"l",
+		"v",
+		"i",
+		"n",
+		" ",
+		"A",
+		"c",
+		"o",
+		"s",
+		"t",
+		"a",
+		".",
+	];
+	const line2 = ["I", " ", "am", " ", "a", " ", ".", ".", "."];
+	const words = [
+		"Web developer",
+		"Frontend dev",
+		"Backend dev",
+		"Full-stack dev",
+		"Web designer",
+		"",
+	];
+	const sentence = {
+		hidden: { opacity: 0 },
+		show: {
+			opacity: 1,
+			transition: {
+				staggerChildren: 0.15,
+			},
+		},
+	};
+	const letter = {
+		hidden: { opacity: 0 },
+		show: { opacity: 1 },
+	};
 	return (
 		<>
 			<Head>
@@ -22,26 +78,48 @@ export default function Home() {
 				exit={{ opacity: 0 }}
 				className={styles.container}
 			>
-				<h5>
-					Animation typing for frontend dev,backend dev, web design / traits
-					Animation typing for frontend dev,backend dev, web design / traits
-					Animation typing for frontend dev,backend dev, web design / traits
-					Animation typing for frontend dev,backend dev, web design / traits
-					Animation typing for frontend dev,backend dev, web design / traits
-					Animation typing for frontend dev,backend dev, web design / traits
-				</h5>
+				<motion.h3
+					className={styles.flashHeader}
+					variants={sentence}
+					initial="hidden"
+					animate="show"
+				>
+					{line1.map((char, index) => {
+						return (
+							<motion.span key={char + "-" + index} variants={letter}>
+								{char}
+							</motion.span>
+						);
+					})}
+					<br />
+					{line2.map((char, index) => {
+						return (
+							<motion.span key={char + "-" + index} variants={letter}>
+								{char}
+							</motion.span>
+						);
+					})}
+					<span>
+						<h3 className={styles.mainTitle}></h3>
+					</span>
+				</motion.h3>
 
 				<div className={styles.cardsContainer}>
 					<h3>
 						What I <span>Do</span>
 					</h3>
-					<div className={styles.cardGrid}>
+					<motion.div
+						initial={{ scale: 0.9 }}
+						animate={{ scale: 1 }}
+						transition={{ type: "tween", stiffness: 500, duration: 0.5 }}
+						className={styles.cardGrid}
+					>
 						{skills.map((item) => (
 							<div className={styles.card} key={item.title}>
 								<SkillCard item={item} />
 							</div>
 						))}
-					</div>
+					</motion.div>
 				</div>
 			</motion.div>
 		</>

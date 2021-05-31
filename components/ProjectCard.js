@@ -3,10 +3,15 @@ import Image from "next/image";
 import styles from "../styles/ProjectCard.module.css";
 
 import { FaEye, FaCode } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({ image, title, srcCode, live }) => {
 	return (
-		<div className={styles.projectCard}>
+		<motion.div
+			animate={{ y: 10 }}
+			transition={{ type: "spring", stiffness: 500 }}
+			className={styles.projectCard}
+		>
 			<Image
 				src={image}
 				alt="random"
@@ -25,7 +30,7 @@ const ProjectCard = ({ image, title, srcCode, live }) => {
 					<span className={styles.projectButtonsSpan}>Src Code</span>
 				</a>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
