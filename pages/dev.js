@@ -72,7 +72,7 @@ const dev = () => {
 						<h4>Languages and Frameworks</h4>
 						<div className={styles.techGrid}>
 							{languages.map((lang) => (
-								<div className={styles.techDiv}>
+								<div key={lang.title} className={styles.techDiv}>
 									<Image src={lang.image} width={30} height={30} />
 									<p>{lang.title}</p>
 								</div>
@@ -83,7 +83,7 @@ const dev = () => {
 						<h4>Tools and Software</h4>
 						<div className={styles.techGrid}>
 							{tools.map((tool) => (
-								<div className={styles.techDiv}>
+								<div key={tool.title} className={styles.techDiv}>
 									<Image src={tool.image} width={30} height={30} />
 									<p>{tool.title}</p>
 								</div>
