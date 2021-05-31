@@ -47,50 +47,74 @@ export const projects = [
 	{
 		image: "/projectImages/cmd.png",
 		title: "CMD Pioneer Construction Corp.",
+		live: "https://cmdpioneerccph.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/cmdpioneerph",
 	},
 	{
 		image: "/projectImages/srf.png",
 		title: "SRF MNL Surf School",
+		live: "https://srf-mnl-react.herokuapp.com/",
+		srcCode: "https://github.com/Exx-hub/srf-mnl-react-version",
 	},
 	{
 		image: "/projectImages/invictus.png",
 		title: "Invictus Food Products Corp.",
+		live: "https://invictus-fpc.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/invictusfoodcorp",
 	},
 	{
 		image: "/projectImages/personal.png",
 		title: "Portfolio Website 1.0",
+		live: "https://exx-hub.gitlab.io/capstone-project-1/",
+		srcCode: "https://gitlab.com/Exx-hub/capstone-project-1",
 	},
 	{
 		image: "/projectImages/weather.png",
 		title: "React Weather App",
+		live: "https://weathertwopointo.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/weather2pointOW",
 	},
 	{
-		image: "/projectImages/reduxcart.png",
+		image: "/projectImages/reuxcart.png",
 		title: "Asset Mgt System",
+		live: "https://csp3-client-tan.vercel.app/",
+		srcCode: "https://gitlab.com/Exx-hub/csp3-client",
 	},
 	{
 		image: "/projectImages/reduxcart.png",
 		title: "Redux-Cart E-Commerce",
+		live: "https://reduxecommerce.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/redux-shopping-cart",
 	},
 	{
 		image: "/projectImages/meme.png",
 		title: "React Meme Generator",
+		live: "https://memegeneratorrr.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/memegenerator",
 	},
 	{
 		image: "/projectImages/firebase-gram.png",
 		title: "Firebase-Gram",
+		live: "https://firegrammm.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/firegram",
 	},
 	{
 		image: "/projectImages/news.png",
 		title: "News App NextJs",
+		live: "https://newsapp-nextjs.vercel.app/",
+		srcCode: "https://github.com/Exx-hub/newsapp-nextjs",
 	},
 	{
 		image: "/projectImages/jagi.png",
 		title: "Daily Quote Generator",
+		live: "https://binnieandalline.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/hundred-days-jagiya",
 	},
 	{
 		image: "/projectImages/drum.png",
 		title: "React Drum Machine",
+		live: "https://thea-unicorn-drum-machine.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/react-drum-machine",
 	},
 ];
 

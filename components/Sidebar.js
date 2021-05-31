@@ -44,7 +44,7 @@ const SideBar = () => {
 				</div>
 				<div className="sidebar-buttons">
 					<p className={styles.contact}>Get in touch!</p>
-					<p className={styles.resume}>Download Resume</p>
+					<p className={styles.resume}>View my Work</p>
 					<ThemeChanger />
 				</div>
 			</div>

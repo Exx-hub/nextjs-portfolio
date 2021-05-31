@@ -2,6 +2,23 @@
 	text-align: center;
 }
 
+.projectButtons {
+	display: flex;
+	justify-content: center;
+}
+.projectButtons a {
+	margin: 2px 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-size: 0.7rem;
+}
+.projectButtonsSpan {
+	font-size: 0.7rem !important;
+	color: gray !important;
+	margin-left: 3px !important;
+}
+
 /* .enlarged {
 	position: absolute;
 	top: 0;

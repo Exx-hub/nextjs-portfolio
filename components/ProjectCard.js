@@ -2,7 +2,9 @@ import Image from "next/image";
 
 import styles from "../styles/ProjectCard.module.css";
 
-const ProjectCard = ({ image, title }) => {
+import { FaEye, FaCode } from "react-icons/fa";
+
+const ProjectCard = ({ image, title, srcCode, live }) => {
 	return (
 		<div className={styles.projectCard}>
 			<Image
@@ -13,8 +15,16 @@ const ProjectCard = ({ image, title }) => {
 				width="300"
 			/>
 			<h4>{title}</h4>
-			{/* view  || 	src code */}
-			{/* modal???  */}
+			<div className={styles.projectButtons}>
+				<a href={live} target="_blank">
+					<FaCode />
+					<span className={styles.projectButtonsSpan}>Live</span>
+				</a>
+				<a href={srcCode} target="_blank">
+					<FaEye />
+					<span className={styles.projectButtonsSpan}>Src Code</span>
+				</a>
+			</div>
 		</div>
 	);
 };

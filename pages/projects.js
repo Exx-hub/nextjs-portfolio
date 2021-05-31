@@ -12,7 +12,12 @@ const Projects = () => {
 			<div className={styles.projectGrid}>
 				{projects.map((project) => (
 					<div key={project.title} className={styles.projectCardDiv}>
-						<ProjectCard image={project.image} title={project.title} />
+						<ProjectCard
+							image={project.image}
+							title={project.title}
+							srcCode={project.srcCode}
+							live={project.live}
+						/>
 					</div>
 				))}
 			</div>
