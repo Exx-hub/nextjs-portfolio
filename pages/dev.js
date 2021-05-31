@@ -36,11 +36,7 @@ const dev = () => {
 								<FaLinkedinIn className={styles.cta} />
 								LinkedIn
 							</a>
-							<a
-								href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:19094244/?edit=true"
-								target="_blank"
-								download
-							>
+							<a href="/Alvin-Acosta.pdf" target="_blank" download>
 								<FaFileDownload className={styles.cta} />
 								Resume
 							</a>
