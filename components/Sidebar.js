@@ -13,7 +13,10 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ThemeChanger from "./ThemeChanger";
 
+import { useRouter } from "next/router";
+
 const SideBar = () => {
+	const router = useRouter();
 	return (
 		<>
 			<Head>
@@ -33,9 +36,15 @@ const SideBar = () => {
 				<p className={styles.title}>Web Developer</p>
 
 				<div className={styles.socialIcons}>
-					<FontAwesomeIcon className={styles.icon} icon={faGithub} />
-					<FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
-					<FontAwesomeIcon className={styles.icon} icon={faGitlab} />
+					<a href="https://github.com/Exx-hub" target="_blank">
+						<FontAwesomeIcon className={styles.icon} icon={faGithub} />
+					</a>
+					<a href="https://www.linkedin.com/in/alvin-acosta/" target="_blank">
+						<FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
+					</a>
+					<a href="https://gitlab.com/Exx-hub" target="_blank">
+						<FontAwesomeIcon className={styles.icon} icon={faGitlab} />
+					</a>
 				</div>
 				<div className={styles.contactSection}>
 					<p>Manila, Philippines</p>
@@ -44,7 +53,9 @@ const SideBar = () => {
 				</div>
 				<div className="sidebar-buttons">
 					<p className={styles.contact}>Get in touch!</p>
-					<p className={styles.resume}>View my Work</p>
+					<p onClick={() => router.push("/projects")} className={styles.resume}>
+						View my Work
+					</p>
 					<ThemeChanger />
 				</div>
 			</div>

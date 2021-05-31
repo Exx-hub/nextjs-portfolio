@@ -12,3 +12,11 @@
 .navbar a {
 	margin-left: 12px;
 }
+
+.active {
+	font-weight: 800;
+}
+
+.inactive {
+	font-weight: 300;
+}

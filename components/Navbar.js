@@ -18,13 +18,23 @@ const Navbar = () => {
 		<nav className={styles.navbar}>
 			{active && <h2>{active}</h2>}
 			<Link href="/">
-				<a>ABOUT</a>
+				<a className={active === "About" ? styles.active : styles.inactive}>
+					ABOUT
+				</a>
 			</Link>
 			<Link href="/dev">
-				<a>DEV</a>
+				<a
+					className={
+						active === "Dev Background" ? styles.active : styles.inactive
+					}
+				>
+					DEV
+				</a>
 			</Link>
 			<Link href="/projects">
-				<a>PROJECTS</a>
+				<a className={active === "Projects" ? styles.active : styles.inactive}>
+					PROJECTS
+				</a>
 			</Link>
 		</nav>
 	);

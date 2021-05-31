@@ -75,6 +75,12 @@ export const projects = [
 		srcCode: "https://github.com/Exx-hub/weather2pointOW",
 	},
 	{
+		image: "/projectImages/news.png",
+		title: "News App NextJs",
+		live: "https://newsapp-nextjs.vercel.app/",
+		srcCode: "https://github.com/Exx-hub/newsapp-nextjs",
+	},
+	{
 		image: "/projectImages/reuxcart.png",
 		title: "Asset Mgt System",
 		live: "https://csp3-client-tan.vercel.app/",
@@ -97,12 +103,6 @@ export const projects = [
 		title: "Firebase-Gram",
 		live: "https://firegrammm.netlify.app/",
 		srcCode: "https://github.com/Exx-hub/firegram",
-	},
-	{
-		image: "/projectImages/news.png",
-		title: "News App NextJs",
-		live: "https://newsapp-nextjs.vercel.app/",
-		srcCode: "https://github.com/Exx-hub/newsapp-nextjs",
 	},
 	{
 		image: "/projectImages/jagi.png",
