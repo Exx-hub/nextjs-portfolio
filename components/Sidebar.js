@@ -52,7 +52,12 @@ const SideBar = () => {
 					<p>0916-420-9977</p>
 				</div>
 				<div className="sidebar-buttons">
-					<p className={styles.contact}>Get in touch!</p>
+					<p
+						onClick={() => window.open("mailto:alvinfloresacosta@gmail.com")}
+						className={styles.contact}
+					>
+						Get in touch!
+					</p>
 					<p onClick={() => router.push("/projects")} className={styles.resume}>
 						View my Work
 					</p>
