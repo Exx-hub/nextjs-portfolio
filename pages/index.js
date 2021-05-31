@@ -4,6 +4,8 @@ import SkillCard from "../components/SkillCard";
 import { skills } from "../data";
 import styles from "../styles/Home.module.css";
 
+import { motion } from "framer-motion";
+
 export default function Home() {
 	return (
 		<>
@@ -14,7 +16,12 @@ export default function Home() {
 				<link rel="icon" href="/alv.ico" />
 			</Head>
 
-			<main className={styles.container}>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
+				className={styles.container}
+			>
 				<h5>
 					Animation typing for frontend dev,backend dev, web design / traits
 					Animation typing for frontend dev,backend dev, web design / traits
@@ -36,7 +43,7 @@ export default function Home() {
 						))}
 					</div>
 				</div>
-			</main>
+			</motion.div>
 		</>
 	);
 }

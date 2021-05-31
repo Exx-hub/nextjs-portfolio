@@ -6,6 +6,8 @@ import Head from "next/head";
 
 import { languages, tools } from "../data";
 
+import { motion } from "framer-motion";
+
 const dev = () => {
 	return (
 		<>
@@ -15,7 +17,12 @@ const dev = () => {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<link rel="icon" href="/alv.ico" />
 			</Head>
-			<div className={styles.devContainer}>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
+				className={styles.devContainer}
+			>
 				<div className={styles.devTop}>
 					<div className={styles.education}>
 						<h4>Education</h4>
@@ -91,7 +98,7 @@ const dev = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };

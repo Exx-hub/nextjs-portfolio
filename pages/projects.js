@@ -4,6 +4,8 @@ import styles from "../styles/Projects.module.css";
 
 import Head from "next/head";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
 	return (
 		<>
@@ -13,24 +15,34 @@ const Projects = () => {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<link rel="icon" href="/alv.ico" />
 			</Head>
-			<div className={styles.projectContainer}>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
+				className={styles.projectContainer}
+			>
 				<h2>
 					RECENT <span>PROJECTS</span>
 				</h2>
 
 				<div className={styles.projectGrid}>
 					{projects.map((project) => (
-						<div key={project.title} className={styles.projectCardDiv}>
+						<motion.div
+							animate={{ y: 5 }}
+							transition={{ type: "spring", stiffness: 500 }}
+							key={project.title}
+							className={styles.projectCardDiv}
+						>
 							<ProjectCard
 								image={project.image}
 								title={project.title}
 								srcCode={project.srcCode}
 								live={project.live}
 							/>
-						</div>
+						</motion.div>
 					))}
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };
