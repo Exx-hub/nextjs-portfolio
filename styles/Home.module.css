@@ -46,6 +46,7 @@
 
 .card {
 	padding: 0.5rem;
+	/* margin-left: 10px; */
 }
 .flashHeader {
 	min-height: 85px;
@@ -97,10 +98,6 @@
 	}
 }
 
-/* [data-theme="dark"] .card {
-	background-color: #333;
-} */
-
 @media screen and (max-width: 963px) {
 	.container {
 		height: auto;
@@ -133,14 +130,14 @@
 
 @media screen and (height: 667px) {
 	.flashHeader {
-		min-height: 100px;
+		min-height: 60px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
 }
 @media screen and (height: 736px) {
 	.flashHeader {
-		min-height: 100px;
+		min-height: 65px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
@@ -148,7 +145,7 @@
 
 @media screen and (height: 812px) {
 	.flashHeader {
-		min-height: 100px;
+		min-height: 65px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
