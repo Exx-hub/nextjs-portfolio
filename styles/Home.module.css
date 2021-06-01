@@ -50,11 +50,12 @@
 .flashHeader {
 	min-height: 85px;
 	text-align: center;
+	margin-top: 20px;
 }
 
 .mainTitle::before {
 	content: "";
-
+	color: rgb(175, 40, 40);
 	animation-name: head;
 	animation-delay: 7s;
 	animation-duration: 12s;
@@ -112,13 +113,21 @@
 	}
 	.mainTitle {
 		font-size: 1.2rem;
-		color: #333;
+		color: rgb(175, 40, 40);
 	}
 	.cardsContainer {
 		padding: 10px;
+		overflow-y: scroll;
+		text-align: center;
+	}
+	.cardsContainer > h3 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
 	}
 	.cardGrid {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		align-items: center;
 	}
 }
 
