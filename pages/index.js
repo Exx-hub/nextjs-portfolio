@@ -41,7 +41,7 @@ export default function Home() {
 		"a",
 		".",
 	];
-	const line2 = ["I", " ", "am", " ", "a", " ", ".", ".", "."];
+	const line2 = ["I", " ", "do", " ", ".", " ", ".", " ", "."];
 	const words = [
 		"Web developer",
 		"Frontend dev",
