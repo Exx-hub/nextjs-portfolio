@@ -168,7 +168,6 @@ a {
 @media screen and (max-height: 569px) {
 	.outer-container {
 		margin-top: 0.5rem;
-		/* background-color: red; */
 		transform: translateY(-30px);
 	}
 	.sidebar-container {
