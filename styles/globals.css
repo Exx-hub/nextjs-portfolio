@@ -176,7 +176,7 @@ a {
 		padding-bottom: 0;
 	}
 }
-@media screen and (max-height: 667px) {
+@media screen and (max-height: 813px) {
 	.outer-container {
 		margin-top: 3rem;
 	}
