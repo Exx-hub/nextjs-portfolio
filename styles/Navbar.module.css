@@ -12,6 +12,7 @@
 .navbar a {
 	margin-left: 12px;
 	font-weight: 800;
+	border-bottom: 1px solid gray;
 }
 
 .active {
