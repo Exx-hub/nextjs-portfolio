@@ -17,12 +17,12 @@ const Navbar = () => {
 	return (
 		<nav className={styles.navbar}>
 			{active && <h2>{active}</h2>}
-			<Link href="/">
+			<Link href="/" scroll={false}>
 				<a className={active === "About" ? styles.active : styles.inactive}>
 					ABOUT
 				</a>
 			</Link>
-			<Link href="/dev">
+			<Link href="/dev" scroll={false}>
 				<a
 					className={
 						active === "Dev Background" ? styles.active : styles.inactive
@@ -31,7 +31,7 @@ const Navbar = () => {
 					DEV
 				</a>
 			</Link>
-			<Link href="/projects">
+			<Link href="/projects" scroll={false}>
 				<a className={active === "Projects" ? styles.active : styles.inactive}>
 					PROJECTS
 				</a>
