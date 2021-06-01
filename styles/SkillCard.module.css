@@ -16,6 +16,12 @@
 	color: rgb(175, 40, 40);
 }
 
+@media screen and (max-width: 1300px) {
+	.skillcard p {
+		font-size: 0.9rem;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.skillcard {
 		width: 90%;

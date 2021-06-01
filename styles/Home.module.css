@@ -51,7 +51,7 @@
 .flashHeader {
 	min-height: 85px;
 	text-align: center;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 
 .mainTitle::before {

@@ -112,7 +112,7 @@
 }
 
 /* HEIGHT MQ  */
-@media screen and (min-height: 680px) and (max-height: 736px) {
+@media screen and (min-height: 680px) and (max-height: 736px) and (orientation: portrait) {
 	.contactSection {
 		margin-top: 30px;
 		margin-bottom: 30px;
@@ -136,7 +136,7 @@
 		margin-top: 10px;
 	}
 }
-@media screen and (min-height: 800px) and (max-height: 813px) {
+@media screen and (min-height: 800px) and (max-height: 813px) and (orientation: portrait) {
 	.contactSection {
 		margin-top: 50px;
 		margin-bottom: 30px;
