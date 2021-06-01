@@ -17,6 +17,10 @@ import { useRouter } from "next/router";
 
 const SideBar = () => {
 	const router = useRouter();
+
+	const handleScroll = () => {
+		router.push("/projects").then(() => window.scrollTo(0, 700));
+	};
 	return (
 		<>
 			<Head>
@@ -58,7 +62,7 @@ const SideBar = () => {
 					>
 						Get in touch!
 					</p>
-					<p onClick={() => router.push("/projects")} className={styles.resume}>
+					<p onClick={handleScroll} className={styles.resume}>
 						View my Work
 					</p>
 				</div>
