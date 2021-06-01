@@ -5,15 +5,20 @@
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 	padding-top: 0.25rem;
+
+	height: 55vh;
+	overflow-y: scroll;
 }
 
 /* <h6 className="my-3 text-base font-medium"> */
 
 .cardsContainer {
 	flex-grow: 1;
-	padding: 1rem;
+	padding: 0.5rem;
 	margin-left: -1.5rem;
 	margin-right: -1.5rem;
+
+	overflow-y: scroll;
 }
 .cardsContainer > h3 {
 	font-weight: 600;
@@ -22,7 +27,6 @@
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	letter-spacing: 0.025em;
-	/* padding-left: 10px; */
 	margin-left: 55px;
 }
 .cardsContainer span {
@@ -36,17 +40,11 @@
 	align-items: center;
 	gap: 1rem;
 
-	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .card {
 	padding: 0.5rem;
-	/* grid-column: span 1 / span 1; */
-
-	/* contemplating  */
-	/* background-color: whitesmoke;
-	border-radius: 10px;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 .flashHeader {
 	min-height: 75px;
@@ -100,3 +98,48 @@
 /* [data-theme="dark"] .card {
 	background-color: #333;
 } */
+
+@media screen and (max-width: 963px) {
+	.container {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.flashHeader {
+		font-size: 0.8rem;
+	}
+	.mainTitle {
+		font-size: 1.2rem;
+		color: #333;
+	}
+	.cardsContainer {
+		padding: 10px;
+	}
+	.cardGrid {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+@media screen and (height: 667px) {
+	.flashHeader {
+		min-height: 100px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (height: 736px) {
+	.flashHeader {
+		min-height: 100px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (height: 812px) {
+	.flashHeader {
+		min-height: 100px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}

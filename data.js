@@ -80,12 +80,12 @@ export const projects = [
 		live: "https://newsapp-nextjs.vercel.app/",
 		srcCode: "https://github.com/Exx-hub/newsapp-nextjs",
 	},
-	{
-		image: "/projectImages/reuxcart.png",
-		title: "Asset Mgt System",
-		live: "https://csp3-client-tan.vercel.app/",
-		srcCode: "https://gitlab.com/Exx-hub/csp3-client",
-	},
+	// {
+	// 	image: "/projectImages/reuxcart.png",
+	// 	title: "Asset Mgt System",
+	// 	live: "https://csp3-client-tan.vercel.app/",
+	// 	srcCode: "https://gitlab.com/Exx-hub/csp3-client",
+	// },
 	{
 		image: "/projectImages/reduxcart.png",
 		title: "Redux-Cart E-Commerce",

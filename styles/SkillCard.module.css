@@ -15,3 +15,15 @@
 
 	color: rgb(175, 40, 40);
 }
+
+@media screen and (max-width: 340px) {
+	.skillcard {
+		width: 90%;
+	}
+	.skillcard h3 {
+		font-size: 0.8rem;
+	}
+	.skillcard p {
+		font-size: 0.6rem;
+	}
+}

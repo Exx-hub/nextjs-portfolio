@@ -51,7 +51,7 @@ const SideBar = () => {
 					<p>alvinfloresacosta@gmail.com</p>
 					<p>0916-420-9977</p>
 				</div>
-				<div className="sidebar-buttons">
+				<div className={styles.sidebarButtons}>
 					<p
 						onClick={() => window.open("mailto:alvinfloresacosta@gmail.com")}
 						className={styles.contact}
@@ -61,8 +61,8 @@ const SideBar = () => {
 					<p onClick={() => router.push("/projects")} className={styles.resume}>
 						View my Work
 					</p>
-					<ThemeChanger />
 				</div>
+				<ThemeChanger />
 			</div>
 		</>
 	);

@@ -17,3 +17,17 @@
 .active {
 	color: rgb(175, 40, 40);
 }
+
+@media screen and (max-width: 500px) {
+	.navbar {
+		justify-content: center;
+		min-height: 50px;
+	}
+	.navbar h2 {
+		display: none;
+	}
+	.navbar a {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}

@@ -1,12 +1,14 @@
 .devContainer {
 	padding: 0rem 1.5rem;
+	height: 55vh;
+	overflow-y: scroll;
 }
 
 /* EDUC AND EXP  */
 
 .devTop {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 	gap: 1.5rem;
 }
 
@@ -88,3 +90,18 @@
 
 /* adjust media queries not autofit  */
 /* of experience and affiliations */
+
+@media screen and (max-width: 963px) {
+	.devContainer {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.ctaDiv {
+		grid-column: span 12 / span 12;
+	}
+	.listDiv {
+		grid-column: span 12 / span 12;
+	}
+}
