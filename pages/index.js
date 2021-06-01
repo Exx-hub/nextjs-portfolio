@@ -48,7 +48,6 @@ export default function Home() {
 		"Backend dev",
 		"Full-stack dev",
 		"Web designer",
-		"",
 	];
 	const sentence = {
 		hidden: { opacity: 0 },

@@ -60,6 +60,9 @@
 	animation-duration: 12s;
 	animation-iteration-count: infinite;
 	display: block;
+	z-index: 9999;
+	position: absolute;
+	left: 25%;
 }
 
 @keyframes head {
