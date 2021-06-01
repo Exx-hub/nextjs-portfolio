@@ -59,6 +59,7 @@
 	animation-delay: 7s;
 	animation-duration: 12s;
 	animation-iteration-count: infinite;
+	display: block;
 }
 
 @keyframes head {
