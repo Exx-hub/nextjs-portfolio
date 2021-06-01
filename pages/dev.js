@@ -95,7 +95,7 @@ const dev = () => {
 						initial={{ x: 0 }}
 						animate={{ x: 5 }}
 						transition={{ type: "spring", stiffness: 500 }}
-						className="tools and software"
+						className={styles.tools}
 					>
 						<h4>Tools and Software</h4>
 						<div className={styles.techGrid}>

@@ -1,14 +1,16 @@
 .projectContainer {
 	overflow-y: scroll;
 	padding: 0.5rem 1.25rem;
-	height: 55vh;
+	height: 58vh;
 }
 .projectContainer > h2 {
 	text-align: center;
 	margin: 15px;
+	font-weight: normal;
 }
 .projectContainer span {
 	color: rgb(175, 40, 40);
+	font-weight: bolder;
 }
 
 .projectGrid {
@@ -26,5 +28,11 @@
 @media screen and (max-width: 963px) {
 	.projectContainer {
 		height: auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.projectContainer h2 {
+		font-size: 1.3rem;
 	}
 }

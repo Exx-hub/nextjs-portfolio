@@ -46,7 +46,7 @@ export const skills = [
 export const projects = [
 	{
 		image: "/projectImages/cmd.png",
-		title: "CMD Pioneer Construction Corp.",
+		title: "CMD Pioneer Construction",
 		live: "https://cmdpioneerccph.netlify.app/",
 		srcCode: "https://github.com/Exx-hub/cmdpioneerph",
 	},
