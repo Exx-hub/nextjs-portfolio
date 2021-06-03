@@ -1,7 +1,7 @@
 .projectContainer {
 	overflow-y: scroll;
 	padding: 0.5rem 1.25rem;
-	height: 58vh;
+	height: 59vh;
 	margin-left: 15px;
 }
 .projectContainer > h2 {

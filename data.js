@@ -52,7 +52,7 @@ export const projects = [
 	},
 	{
 		image: "/projectImages/srf.png",
-		title: "SRF MNL Surf School",
+		title: "SRF MNL Surf School NextJs",
 		live: "https://srf-mnl-react.herokuapp.com/",
 		srcCode: "https://github.com/Exx-hub/srf-mnl-react-version",
 	},
@@ -69,16 +69,22 @@ export const projects = [
 		srcCode: "https://gitlab.com/Exx-hub/capstone-project-1",
 	},
 	{
-		image: "/projectImages/weather.png",
-		title: "React Weather App",
-		live: "https://weathertwopointo.netlify.app/",
-		srcCode: "https://github.com/Exx-hub/weather2pointOW",
-	},
-	{
 		image: "/projectImages/news.png",
 		title: "News App NextJs",
 		live: "https://newsapp-nextjs.vercel.app/",
 		srcCode: "https://github.com/Exx-hub/newsapp-nextjs",
+	},
+	{
+		image: "/projectImages/vanillasrf.png",
+		title: "MERN Srf Manila",
+		live: "https://csp3-client-tan.vercel.app/",
+		srcCode: "https://gitlab.com/tuitt/students/batch95/alvin-acosta/csp2",
+	},
+	{
+		image: "/projectImages/weather.png",
+		title: "React Weather App",
+		live: "https://weathertwopointo.netlify.app/",
+		srcCode: "https://github.com/Exx-hub/weather2pointOW",
 	},
 	// {
 	// 	image: "/projectImages/reuxcart.png",
