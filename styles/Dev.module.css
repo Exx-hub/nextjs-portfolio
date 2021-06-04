@@ -135,3 +135,23 @@
 		margin-bottom: 10px;
 	}
 }
+
+/* height mq landscape */
+
+@media screen and (min-height: 600px) and (max-height: 620px) and (orientation: landscape) {
+	.devContainer {
+		height: 73vh;
+	}
+	.devContainer h4 {
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (min-height: 621px) and (max-height: 690px) and (orientation: landscape) {
+	.devContainer {
+		height: 74vh;
+	}
+	.devContainer h4 {
+		font-size: 1.1rem;
+	}
+}
