@@ -1,3 +1,9 @@
+@-moz-document url-prefix() {
+	.projectContainer {
+		scrollbar-width: thin;
+	}
+}
+
 .projectContainer {
 	overflow-y: scroll;
 	padding: 0.5rem 1.25rem;

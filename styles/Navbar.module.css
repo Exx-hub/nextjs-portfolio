@@ -18,6 +18,13 @@
 	color: rgb(175, 40, 40);
 }
 
+/* FIREFOX ONLY  */
+@-moz-document url-prefix() {
+	[data-theme="dark"] .active {
+		color: rgb(175, 40, 40);
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.navbar {
 		justify-content: center;
