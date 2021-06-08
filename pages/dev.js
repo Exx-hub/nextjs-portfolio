@@ -53,7 +53,7 @@ const dev = () => {
 									<FaLinkedinIn className={styles.cta} />
 									LinkedIn
 								</a>
-								<a href="/resume-alvinacosta.pdf" target="_blank" download>
+								<a href="/resume-alvin-acosta.pdf" target="_blank" download>
 									<FaFileDownload className={styles.cta} />
 									Resume
 								</a>
