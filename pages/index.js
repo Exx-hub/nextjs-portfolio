@@ -67,10 +67,11 @@ export default function Home() {
 			<Head>
 				<meta charSet="utf-8" />
 				<title>Alvin Acosta | About</title>
-				<meta property="og:title" content='Personal Portfolio'/>
-				<meta property="og:description" content='Showcase of my personal work'/>
+				<meta name="title" property="og:title" content='Personal Portfolio'/>
+				<meta name="description" property="og:description" content='Showcase of my personal work'/>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<meta property="og:image" content="https://i.ibb.co/xh9GfGW/website-Thumb.png" />
+				<meta name="author" content="Alvin Flores Acosta" />
+				<meta name="image" property="og:image" content="https://i.ibb.co/xh9GfGW/website-Thumb.png" />
 				<link rel="icon" href="/alv.ico" />
 			</Head>
 
