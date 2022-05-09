@@ -71,7 +71,8 @@ export default function Home() {
 				<meta name="description" property="og:description" content='Showcase of my personal work'/>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta name="author" content="Alvin Flores Acosta" />
-				<meta name="image" property="og:image" content="https://i.ibb.co/xh9GfGW/website-Thumb.png" />
+				<meta name="url" property="og:url" content="https://alvinacosta-next.vercel.app/" />
+				<meta name="image" property="og:image" content="https://i.ibb.co/6Zp8VhN/black-Thumb.png" />
 				<link rel="icon" href="/alv.ico" />
 			</Head>
 
